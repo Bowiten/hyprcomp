@@ -5,4 +5,4 @@ VA-11 HALL-A inspired hyprland rice
 dotfiles currently suck and i still have to make the gtk theme
 
 ## picture(s)
-[desktop preview](./preview.png)
+![desktop preview](preview.png)
