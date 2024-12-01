@@ -1,0 +1,106 @@
+* {
+    font-family: TerminessNerdFontMono;
+    font-size: 1.05em;
+    color: white;
+    box-shadow: none;
+    transition-duration: 0;
+    text-shadow: none;
+    border-radius: 0;
+    border: 0;
+}
+
+
+window.bar {
+    background-color: white;
+}
+
+window.bar > box {
+	margin: 0 10px;
+}
+
+window.bar * {
+    color: black;
+}
+
+.bar button {
+    min-width: 0;
+    padding: 0 4px;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+
+}
+
+.bar button:active, .bar button:hover, .bar button.focused {
+    background: black;
+}
+
+.bar button:active label, .bar button:hover label, .bar button.focused label {
+    color: white;
+}
+
+.client-title {
+    color: black;
+}
+
+.notification-popups {
+    background: transparent;
+}
+
+.notification {
+    min-width: 350px;
+    border-radius: 0;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 0;
+    background-color: black;
+}
+
+.notification-list {
+    padding: 10px;
+}
+
+.title {
+    font-size: 0.7em;
+}
+
+.body {
+    font-size: 0.5em
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.action-button {
+    background: transparent;
+    font-size: 0.7em;
+    padding: 0;
+}
+
+.action-button label {
+    color: gray;
+}
+
+.action-button:hover label, .action-button:active label{
+    color: white;
+}
+
+window.applauncher {
+    background: black;
+    border: 2px solid white;
+    color: black;
+}
+
+slider, undershoot, overshoot {
+    background: transparent;
+}
+
+.applauncher-entry {
+    background:transparent;
+    padding:0;
+}
+
+entry {
+    caret-color: white;
+}

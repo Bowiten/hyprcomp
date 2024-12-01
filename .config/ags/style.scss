@@ -1,0 +1,38 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: TerminessNerdFontMono;
+    font-size: 1.05em;
+    text-shadow: none;
+    box-shadow: none;
+    transition-duration: 0;
+}
+
+window.Bar {
+    background: transparent;
+
+    >centerbox {
+        background: white;
+        padding: 0 10px;
+    }
+
+    box {
+        
+    }
+
+    button {
+        background: transparent;
+        color: black;
+        min-width: 0;
+        padding: 0 4px;
+        border-radius: 0;
+        border: 0;
+    }
+
+    button.focused, button:hover, button:active {
+        background: black;
+        label {
+            color: white;
+        }
+    }
+}
